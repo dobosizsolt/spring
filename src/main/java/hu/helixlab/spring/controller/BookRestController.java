@@ -31,5 +31,6 @@ public class BookRestController {
 
     public Book updateBookById(@PathVariable("id") int id, @RequestBody Book book)
 
-
+    //findAll
+    //angularos alkalmazást írni ami meghívja
 }
