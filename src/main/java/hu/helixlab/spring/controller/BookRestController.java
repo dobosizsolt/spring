@@ -36,8 +36,7 @@ public class BookRestController {
         return bookService.updateById(id, book);
     }
 
-    @RequestMapping(value = "/books/all", method =RequestMethod.GET )
-    @CrossOrigin(origins = "http://localhost")
+    @RequestMapping(value = "/books", method =RequestMethod.GET )
     public List<Book> findAll(){
         return  bookService.findAll();
     }
